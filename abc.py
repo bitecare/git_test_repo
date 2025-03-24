@@ -11,9 +11,12 @@ from sklearn.tree import DecisionTreeRegressor
 
 from sklearn.metrics import mean_squared_error, mean_absolute_error, mean_absolute_percentage_error
 
-from tqdm.auto import tqdm
+from tqdm import tqdm
 
 
 
 def add(x, y):
     return x + y
+
+def minus(x, y):
+    return x - y
